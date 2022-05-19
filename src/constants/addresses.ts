@@ -19,7 +19,7 @@ export const MULTICALL_ADDRESS: AddressMap = {
 }
 export const V2_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(V2_FACTORY_ADDRESS)
 
-export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0xe456b3b4f1db135f53e6bf653d87a4abbf14c85a')
+export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45')
 export const V3_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0xE592427A0AEce92De3Edee1F18E0157C05861564', [
   SupportedChainId.OPTIMISM,
   SupportedChainId.OPTIMISTIC_KOVAN,
